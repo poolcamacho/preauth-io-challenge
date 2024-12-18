@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  game-01:
+    build: .
+    container_name: game-01
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command: ["node", "src/index.js"]

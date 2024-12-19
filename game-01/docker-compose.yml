@@ -5,6 +5,6 @@ services:
     build: .
     container_name: game-01
     volumes:
-      - .:/usr/src/app
-      - /usr/src/app/node_modules
+      - .:/usr/src/src
+      - /usr/src/src/node_modules
     command: ["node", "src/index.js"]

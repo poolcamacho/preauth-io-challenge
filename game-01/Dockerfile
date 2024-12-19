@@ -13,7 +13,7 @@ RUN npm install
 # Copy the source code to the container
 COPY . .
 
-# Run tests (opcional)
+# Run test (opcional)
 RUN npm run test
 
 # Default command to execute the program
